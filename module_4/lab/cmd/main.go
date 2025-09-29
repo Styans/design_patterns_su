@@ -21,8 +21,7 @@ func main() {
 		return
 	}
 	
-	var model, fuel string
-	var speed string
+	var model, fuel, speed string
 
 	fmt.Print("Введите модель: ")
 	fmt.Scan(&model)
@@ -46,8 +45,8 @@ func main() {
 		}
 	}
 	f := factory.GetFactory(choice)
-
 	t := f.CreateTransport()
+
 	t.Move(10)
 	t.FuelUp()
 }
