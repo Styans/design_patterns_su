@@ -12,6 +12,8 @@ import (
 	"lab/internal/singleton"
 )
 
+//======================================== Демка синглтона ========================================
+
 func demoLogger() {
 	cfg := `{"level":"INFO","file_path":"application.log"}`
 	_ = os.WriteFile("logger_config.json", []byte(cfg), 0644)
@@ -53,19 +55,24 @@ func demoLogger() {
 	}
 }
 
+//======================================== Демка билдера ========================================
+
 func demoBuilder() {
 	officeBuilder := builder.NewOfficeComputerBuilder()
 	director := builder.NewComputerDirector(officeBuilder)
 	office := director.ConstructComputer()
+
 	gamingBuilder := builder.NewGamingComputerBuilder()
 	director2 := builder.NewComputerDirector(gamingBuilder)
 	gaming := director2.ConstructComputer()
+
 	fmt.Println("Office computer")
 	fmt.Println(office.String())
 	fmt.Println("Gaming computer")
 	fmt.Println(gaming.String())
 }
 
+// ======================================== Демка прототипа ========================================
 func demoPrototype() {
 	sec1 := prototype.Section{Title: "Intro", Content: "Welcome", Images: []prototype.Image{{URL: "img1.png", Alt: "img1"}}}
 	sec2 := prototype.Section{Title: "Content", Content: "Body", Images: []prototype.Image{{URL: "img2.png", Alt: "img2"}}}
@@ -79,6 +86,8 @@ func demoPrototype() {
 	fmt.Println("Original section content:", doc.Sections[0].Content)
 	fmt.Println("Clone section content:", doc2.Sections[0].Content)
 }
+
+// ======================================== Main ========================================
 
 func main() {
 	fmt.Println("Demo Singleton Logger")
