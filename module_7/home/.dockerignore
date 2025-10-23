@@ -1,0 +1,12 @@
+# Go
+*.o
+*.a
+*.so
+**/*.test
+
+# IDE Files
+.idea/
+.vscode/
+
+# Build artifacts
+app_patterns
