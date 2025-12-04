@@ -44,7 +44,7 @@
           <mxGeometry height="26" width="160" y="60" as="geometry" />
         </mxCell>
         <mxCell id="_PnAON0hX30EZ-VnonD6-15" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;" value="Classname" vertex="1">
-          <mxGeometry height="164" width="160" x="70" y="120" as="geometry" />
+          <mxGeometry height="164" width="160" x="310" y="330" as="geometry" />
         </mxCell>
         <mxCell id="_PnAON0hX30EZ-VnonD6-16" parent="_PnAON0hX30EZ-VnonD6-15" style="text;strokeColor=none;fillColor=#F5F5F5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
