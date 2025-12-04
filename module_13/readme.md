@@ -3,5 +3,5 @@
 
 
 <p align="center">
-  <img src="../module_13/Диаграмма без названия.drawio.svg"/>
+  <img src="../module_13/lab.drawio"/>
 </p>
